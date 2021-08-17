@@ -1,12 +1,5 @@
 public class FizzBuzz {
 
-    public static String assigning(int number) {
-        if (number % 3 == 0) {
-            return "Fizz";
-        } else {
-            return Integer.toString(number);
-        }
-    }
 
     public static String counter(int n) {
         if (n % 3 == 0 && n % 5 == 0) {
